@@ -34,8 +34,6 @@ export class PeliculasGuardadasComponent implements OnInit {
         this.dataObtenida = data
         this.arrayPeliculas = this.dataObtenida.value
 
-        // console.log(this.arrayPeliculas);
-
         this.obtenerPeliculasGuardadas()
       },
       error: (error) => {

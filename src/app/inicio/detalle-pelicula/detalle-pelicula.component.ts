@@ -84,5 +84,8 @@ export class DetallePeliculaComponent implements OnInit {
 
   }
 
+  cerrar(){
+    this.dialogRef.close()
+  }
 
 }

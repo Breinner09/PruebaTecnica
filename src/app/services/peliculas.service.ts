@@ -29,4 +29,13 @@ export class PeliculasService {
     const url = `${environment.baseURL}/Peliculas/Guardar`
     return this.http.post(url, pelicula)
   }
+
+  editarCalificacion(pelicula: Object){
+    const url = `${environment.baseURL}/Peliculas/EditarCalificacion`
+    return this.http.put(url, pelicula)
+  }
+
+  eliminarPelicula(id: number){
+    return this.http.delete(`${environment.baseURL}/Peliculas/EliminarPelicula/${id}`)
+  }
 }

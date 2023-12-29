@@ -1,7 +1,7 @@
 <div class="fondo">
     <div class="formularioBox">
         <form [formGroup]="loginForm">
-            <h1 class="login-title">INICIAR SESIÓN</h1>
+            <h1 class="login-title">Registro</h1>
 
             <mat-form-field appearance="outline">
                 <mat-label>Usuario</mat-label>
@@ -16,10 +16,10 @@
 
 
             <button mat-button mat-flat-button [disabled]="loginForm.invalid" class="btnInicio"
-                (click)="login()" [ngStyle]="{'background-color': loginForm.invalid ? '#2a2b31' : '#cb351e'}">Iniciar Sesión</button>
+                (click)="registro()" [ngStyle]="{'background-color': loginForm.invalid ? '#2a2b31' : '#cb351e'}">Registrarse</button>
 
 
-            <a routerLink="/registro" class="registro">Registrate aquí</a>
+            <a routerLink="/login" class="registro">Cancelar</a>
         </form>
     </div>
 </div>

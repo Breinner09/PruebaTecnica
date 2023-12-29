@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { LoginService } from '../services/login.service';
 import { Login } from '../Interfaces/login';
 import { Router } from '@angular/router';
-import { MatSnackBar, MatSnackBarConfig } from '@angular/material/snack-bar';
+import Swal from 'sweetalert2';
 
 
 
@@ -15,7 +15,7 @@ import { MatSnackBar, MatSnackBarConfig } from '@angular/material/snack-bar';
 export class LoginComponent implements OnInit {
   loginForm: FormGroup;
 
-  constructor(private fb: FormBuilder, private _loginservice: LoginService, private router: Router, private alerta: MatSnackBar
+  constructor(private fb: FormBuilder, private _loginservice: LoginService, private router: Router
   ) {
     this.loginForm = this.fb.group({
       userName: ['', Validators.required],
@@ -51,19 +51,29 @@ export class LoginComponent implements OnInit {
           console.log(dataUser);
 
         } else {
-          this.abrirAlerta(`${dataUser.message}`, '')
+          Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: `${dataUser.message}`,
+            showConfirmButton: true,
+            confirmButtonColor: '#cb351e',
+            confirmButtonText: 'Registrarse',
+            timer: 2000,
+            timerProgressBar: true,
+            willClose: () => {
+              this.loginForm.reset();
+            }
+          }).then((result) => {
+            if (result.isConfirmed) {
+              this.router.navigate(['/registro']);
+            }
+          });
+          
         }
 
       })
     }
   }
 
-  abrirAlerta(message: string, action: string) {
-    const config = new MatSnackBarConfig(); 
-    config.panelClass = ['alertaError']; 
-    config.duration= 3000;
-
-    this.alerta.open(message, action, config)
-  }
 
 }

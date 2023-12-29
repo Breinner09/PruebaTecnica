@@ -1,0 +1,60 @@
+.fondo {
+    background-image: url(../../../assets/img/films.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-title {
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #fff;
+
+}
+
+.formularioBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f0e0ee0;
+    flex-direction: row;
+    width: 30%;
+    height: 60%;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px #000;
+}
+
+.formularioBox mat-form-field {
+    width: 50%;
+    margin-top: 15px;
+}
+
+.formularioBox form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registro {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    margin-top: 5%;
+}
+
+.registro:hover {
+    color: #cb351e;
+}
+
+
+.btnInicio {
+    margin-top: 15px;
+    width: 50%;
+}

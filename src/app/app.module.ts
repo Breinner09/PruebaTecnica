@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
 import { MatButtonModule } from '@angular/material/button';
-import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HttpClientModule } from '@angular/common/http';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
@@ -24,6 +23,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PeliculasGuardadasComponent } from './peliculas-guardadas/peliculas-guardadas.component';
 import { DetallePeliculaComponent } from './inicio/detalle-pelicula/detalle-pelicula.component';
 import { DetallePeliculaGuardadaComponent } from './peliculas-guardadas/detalle-pelicula-guardada/detalle-pelicula-guardada.component';
+import { RegistroComponent } from './login/registro/registro.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +33,8 @@ import { DetallePeliculaGuardadaComponent } from './peliculas-guardadas/detalle-
     NavbarComponent,
     PeliculasGuardadasComponent,
     DetallePeliculaComponent,
-    DetallePeliculaGuardadaComponent
+    DetallePeliculaGuardadaComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +43,6 @@ import { DetallePeliculaGuardadaComponent } from './peliculas-guardadas/detalle-
     MatInputModule,
     MatSelectModule,
     MatButtonModule,
-    MatSnackBarModule,
     HttpClientModule,
     MatCardModule,
     MatIconModule,

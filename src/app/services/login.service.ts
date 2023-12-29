@@ -15,4 +15,9 @@ export class LoginService {
     return this.http.post(`${environment.baseURL}/User/login`, login);
   }
 
+  registro(userInfo: Object){
+    const url = `${environment.baseURL}/User/Registro`
+    return this.http.post(url, userInfo);
+  }
+
 }

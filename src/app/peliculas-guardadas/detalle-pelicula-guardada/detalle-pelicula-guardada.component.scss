@@ -30,6 +30,13 @@
     right: 4em;
 }
 
+.btnEditar {
+    background-color: #f3831a;
+    position: absolute;
+    bottom: 30px;
+    right: 12em;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -44,6 +51,13 @@ img {
 
 .estrellas{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
 
+.cerrar{
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    right: 25px;
+    top: 20px;
 }

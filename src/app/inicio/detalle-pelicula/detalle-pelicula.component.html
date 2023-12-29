@@ -4,6 +4,7 @@
             alt="Imagen de la película">
     </div>
     <div class="infoContainer">
+        <mat-icon class="cerrar" (click)="cerrar()">close</mat-icon>  
         <p class="title">{{ dataPelicula.original_title }}</p>
         <p>{{ dataPelicula.overview }}</p>
         <p>Fecha de lanzamiento: {{ dataPelicula.release_date }}</p>
