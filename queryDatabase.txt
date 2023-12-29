@@ -1,0 +1,17 @@
+create database pruebaTecnica;
+go
+use pruebaTecnica;
+
+create table users(
+	userId int primary key identity(1,1),
+	userName varchar(50),
+	password varchar(50)
+);
+
+create table peliculas(
+	id int primary key identity(1,1),
+	peliculaId int,
+	nombrePelicula varchar(50),
+	calificacion int,
+	userId int foreign key references users (userId)
+);
