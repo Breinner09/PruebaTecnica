@@ -1,0 +1,14 @@
+<div class="container">
+    <p class="tittle">Prueba Tecnica</p>
+    <div class="button-container">
+        <button mat-button (click)="peliculasPopulares()">Peliculas Populares</button>
+        <button mat-button (click)="misPeliculas()">Mis peliculas</button>
+    </div>
+
+
+    <button mat-button [matMenuTriggerFor]="menu">{{userName}}</button>
+    <mat-menu #menu="matMenu" class="menu">
+        <button mat-menu-item (click)="cerrarSesion()">Cerrar sesión</button>
+    </mat-menu>
+
+</div>

@@ -1,0 +1,26 @@
+<div mat-dialog-content class="dialogContainer">
+    <div class="imgContainer">
+        <img mat-card-image [src]="'https://image.tmdb.org/t/p/w500' + dataPelicula.infoPeliculas.poster_path"
+            alt="Imagen de la película">
+    </div>
+    <div class="infoContainer">
+        <p class="title">{{ dataPelicula.infoPeliculas.original_title }}</p>
+        <p>{{ dataPelicula.infoPeliculas.overview }}</p>
+        <p>Fecha de lanzamiento: {{ dataPelicula.infoPeliculas.release_date }}</p>
+        <p>Puntuación: {{ dataPelicula.infoPeliculas.vote_average }}</p>
+
+        <div class="calificacion">
+            <p>Tu calificación:</p> 
+            <div class="estrellas">
+                <mat-icon *ngFor="let estrella of estrellas">star</mat-icon>
+            </div>
+            <mat-slider [disabled]="false" [max]="5" [min]="1" [step]="1" [discrete]="true" [showTickMarks]="false" (change)="sliderChange($event)">
+                <input matSliderThumb [(ngModel)]="calificacion" #slider>
+            </mat-slider>
+        </div>
+        
+        <!-- <button mat-button class="btnGuardar" (click)="addPelicula()" *ngIf="!slider">Añadir a favoritas<mat-icon>favorite_border</mat-icon></button>
+        <button mat-button class="btnGuardar" (click)="guardarPelicula()" *ngIf="slider">Guardar<mat-icon>favorite</mat-icon></button> -->
+    </div>
+
+</div>

@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.tittle {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #ff0000;
+}
+
+.menu {
+    position: fixed;
+    bottom: 10px;
+    /* Puedes ajustar la distancia desde el borde inferior según tus necesidades */
+    right: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto; 
+    margin-left: 30px;
+}
+
+.button-container button{
+    padding: 15px;
+}

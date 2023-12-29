@@ -1,0 +1,14 @@
+<app-navbar></app-navbar>
+<div class="containerFavoritas">
+    <div class="mat-grid-list">
+        <mat-card class="card" *ngFor="let pelicula of arrayPeliculas" (click)="abrirDialogoDetalle(pelicula)">
+            <ng-container *ngIf="pelicula.infoPeliculas && pelicula.infoPeliculas.poster_path">
+                <img mat-card-image [src]="'https://image.tmdb.org/t/p/w500' + pelicula.infoPeliculas.poster_path"
+                    alt="Imagen de la película">
+                <mat-card-content>
+                    <h2>{{ pelicula.infoPeliculas.original_title }}</h2>
+                </mat-card-content>
+            </ng-container>
+        </mat-card>
+    </div>
+</div>

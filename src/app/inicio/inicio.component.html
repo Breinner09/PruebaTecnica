@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+
+<div class="buscador">
+  <input type="text" class="buscadorInput" id="buscadorInput" placeholder=" " (keyup)="enviarBusqueda($event)">
+  <label for="buscadorInput" class="buscadorLabel">Buscar película</label>
+  <span><mat-icon>search</mat-icon></span>
+</div>
+<div class="container">
+  <div class="mat-grid-list">
+    <mat-card class="card" *ngFor="let pelicula of infoPeliculas" (click)="abrirDialogoDetalle(pelicula)">
+      <img mat-card-image [src]="'https://image.tmdb.org/t/p/w500' + pelicula.poster_path" alt="Imagen de la película">
+      <mat-card-content>
+        <h2>{{ pelicula.original_title }}</h2>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
+
+<div class="paginado">
+  <button *ngIf="numeroSeleccionado !== 1" (click)="disminuirPagina()"><mat-icon>chevron_left</mat-icon></button>
+  <div *ngFor="let numero of numerosDisponibles">
+    <button (click)="seleccionarNumero(numero)" [class.selected]="numero === numeroSeleccionado">
+      {{ numero }}
+    </button>
+  </div>
+  <button *ngIf="numeroSeleccionado > 10" [class.selected]="numeroSeleccionado">
+    {{numeroSeleccionado}}</button>
+  <button (click)="aumentarPagina()"><mat-icon>chevron_right</mat-icon></button>
+</div>
+
+

@@ -1,0 +1,106 @@
+.container {
+  margin: 50px;
+}
+
+.buscador {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 80px;
+  margin-right: 50px;
+  border-radius: 5px;
+}
+
+.buscadorInput {
+  display: flex;
+  background-color: #0f0e0ee0;
+  border: 0;
+  border-radius: 5px;
+  border-bottom: 2px #fff solid;
+  width: 100%;
+  padding-top: 35px;
+  font-size: 1rem;
+  color: #fff;
+  outline: none;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.buscadorInput:focus+.buscadorLabel,
+.buscadorInput:not(:placeholder-shown)+.buscadorLabel {
+  transform: translateY(-4px) scale(.7);
+  transform-origin: left top;
+}
+
+.buscadorLabel {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  transform: translateY(10px);
+  transition: transform .5s;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.buscador span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  margin: 15px auto;
+  color: #fff;
+}
+
+.mat-grid-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;
+}
+
+.card {
+  align-items: center;
+  background-color: #0f0e0ee0;
+  color: #fff;
+  transition: background-color 0.5s;
+  margin-top: 50px;
+}
+
+.card:hover {
+  background-color: #7f0000;
+}
+
+.card h2 {
+  margin-top: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.paginado {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginado button{
+  cursor: pointer;
+  border: none;
+  background-color: #7f0000;
+  color: #fff;
+  padding: 11px;
+  border-radius: 5px;
+  font-weight: bold; 
+
+}
+
+.paginado button.selected {
+  background-color: #fff; 
+  color: #000; 
+  font-weight: bold; 
+}

@@ -1,0 +1,25 @@
+<div class="fondo">
+    <div class="formularioBox">
+        <form [formGroup]="loginForm">
+            <h1 class="login-title">INICIAR SESIÓN</h1>
+
+            <mat-form-field appearance="outline">
+                <mat-label>Usuario</mat-label>
+                <input matInput formControlName="userName" type="text">
+            </mat-form-field>
+
+
+            <mat-form-field appearance="outline">
+                <mat-label>Contraseña</mat-label>
+                <input matInput formControlName="password" type="text">
+            </mat-form-field>
+
+
+            <button mat-button mat-flat-button [disabled]="loginForm.invalid" class="btnInicio"
+                (click)="login()" [ngStyle]="{'background-color': loginForm.invalid ? '#2a2b31' : '#cb351e'}">Iniciar Sesión</button>
+
+
+            <a href="" class="registro">Registrate aquí</a>
+        </form>
+    </div>
+</div>
