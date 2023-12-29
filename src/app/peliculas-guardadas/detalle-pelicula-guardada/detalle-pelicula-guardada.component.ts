@@ -1,6 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { Pelicula } from 'src/app/Interfaces/pelicula';
 import { PeliculasService } from 'src/app/services/peliculas.service';
 import Swal from 'sweetalert2';
 
