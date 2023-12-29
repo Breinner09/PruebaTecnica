@@ -1,0 +1,14 @@
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Modelos\bin\Debug\net6.0\SistemaPeliculas.Modelos.deps.json
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Modelos\bin\Debug\net6.0\SistemaPeliculas.Modelos.runtimeconfig.json
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Modelos\bin\Debug\net6.0\SistemaPeliculas.Modelos.dll
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Modelos\bin\Debug\net6.0\SistemaPeliculas.Modelos.pdb
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Modelos\obj\Debug\net6.0\SistemaPeliculas.Modelos.csproj.AssemblyReference.cache
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Modelos\obj\Debug\net6.0\SistemaPeliculas.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Modelos\obj\Debug\net6.0\SistemaPeliculas.Modelos.AssemblyInfoInputs.cache
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Modelos\obj\Debug\net6.0\SistemaPeliculas.Modelos.AssemblyInfo.cs
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Modelos\obj\Debug\net6.0\SistemaPeliculas.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Modelos\obj\Debug\net6.0\SistemaPeliculas.Modelos.dll
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Modelos\obj\Debug\net6.0\refint\SistemaPeliculas.Modelos.dll
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Modelos\obj\Debug\net6.0\SistemaPeliculas.Modelos.pdb
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Modelos\obj\Debug\net6.0\SistemaPeliculas.Modelos.genruntimeconfig.cache
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Modelos\obj\Debug\net6.0\ref\SistemaPeliculas.Modelos.dll

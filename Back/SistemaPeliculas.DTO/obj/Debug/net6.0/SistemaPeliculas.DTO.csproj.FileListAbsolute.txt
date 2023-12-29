@@ -1,0 +1,12 @@
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.DTO\bin\Debug\net6.0\SistemaPeliculas.DTO.deps.json
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.DTO\bin\Debug\net6.0\SistemaPeliculas.DTO.dll
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.DTO\bin\Debug\net6.0\SistemaPeliculas.DTO.pdb
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.DTO\obj\Debug\net6.0\SistemaPeliculas.DTO.csproj.AssemblyReference.cache
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.DTO\obj\Debug\net6.0\SistemaPeliculas.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.DTO\obj\Debug\net6.0\SistemaPeliculas.DTO.AssemblyInfoInputs.cache
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.DTO\obj\Debug\net6.0\SistemaPeliculas.DTO.AssemblyInfo.cs
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.DTO\obj\Debug\net6.0\SistemaPeliculas.DTO.csproj.CoreCompileInputs.cache
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.DTO\obj\Debug\net6.0\SistemaPeliculas.DTO.dll
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.DTO\obj\Debug\net6.0\refint\SistemaPeliculas.DTO.dll
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.DTO\obj\Debug\net6.0\SistemaPeliculas.DTO.pdb
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.DTO\obj\Debug\net6.0\ref\SistemaPeliculas.DTO.dll

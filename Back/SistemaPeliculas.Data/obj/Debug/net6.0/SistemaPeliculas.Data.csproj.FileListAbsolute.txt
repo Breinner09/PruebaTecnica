@@ -1,0 +1,15 @@
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Data\bin\Debug\net6.0\SistemaPeliculas.Data.deps.json
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Data\bin\Debug\net6.0\SistemaPeliculas.Data.dll
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Data\bin\Debug\net6.0\SistemaPeliculas.Data.pdb
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Data\bin\Debug\net6.0\SistemaPeliculas.Modelos.dll
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Data\bin\Debug\net6.0\SistemaPeliculas.Modelos.pdb
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Data\obj\Debug\net6.0\SistemaPeliculas.Data.csproj.AssemblyReference.cache
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Data\obj\Debug\net6.0\SistemaPeliculas.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Data\obj\Debug\net6.0\SistemaPeliculas.Data.AssemblyInfoInputs.cache
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Data\obj\Debug\net6.0\SistemaPeliculas.Data.AssemblyInfo.cs
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Data\obj\Debug\net6.0\SistemaPeliculas.Data.csproj.CoreCompileInputs.cache
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Data\obj\Debug\net6.0\SistemaPeliculas.Data.csproj.CopyComplete
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Data\obj\Debug\net6.0\SistemaPeliculas.Data.dll
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Data\obj\Debug\net6.0\refint\SistemaPeliculas.Data.dll
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Data\obj\Debug\net6.0\SistemaPeliculas.Data.pdb
+C:\Users\EQUIPO\OneDrive\Documentos\Prueba Tecnica\Prueba Tecnica\SistemaPeliculas.Data\obj\Debug\net6.0\ref\SistemaPeliculas.Data.dll
